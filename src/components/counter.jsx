@@ -28,12 +28,20 @@ class Counter extends Component {
             value : value + 1
         }));
     };
+
+    onDel = () => {
+        this.setState(({value}) => ({
+            value : value - 1
+        }));
+    };
+
     render() { 
         return (
             <React.Fragment>
-                <span style={this.styles} className = {this.classExtract()}>{this.state.value}</span>
-                <button className = "btn btn-secondary btn-sm" onClick = {this.functionTest}>Click Here</button>
-                <button className = "btn btn-danger btn-sm" onClick = {() => this.props.onDelete(this.props.counter.id)}>delete</button>
+                <span style={this.styles} className = {this.classExtract()}>{this.state.value}</span> 
+                <button className = "btn btn-secondary btn-sm m-1" onClick = {this.functionTest}>+</button>
+                <button className = "btn btn-danger btn-sm m-1" onClick = {() => this.props.onDelete(this.props.counter.id)}></button>
+                <button className = "btn btn-secondary btn-sm m-1" onClick = {this.onDel}>-</button>
             </React.Fragment>
         );
     };
