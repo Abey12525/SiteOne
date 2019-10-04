@@ -19,9 +19,9 @@ class MultiCount extends Component{
     
     handleAddItem = () => {
         let temp = {id:10, value:0}
-        this.setState({
-            counters: {...this.state.counters, ...temp}
-        })
+        this.setState(prevState => ({
+            counters : [...prevState.counters,temp]
+        }))
     };
 
     render(){

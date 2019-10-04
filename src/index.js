@@ -6,7 +6,14 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import MultiCount from './components/multiCount';
 
-ReactDOM.render(<MultiCount />, document.getElementById('root'));
+ReactDOM.render(
+                <div>
+                    <MultiCount />
+                    <br />
+                    <MultiCount />
+                </div>
+                , document.getElementById('root'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
