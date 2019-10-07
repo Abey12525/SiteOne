@@ -1,17 +1,24 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 import MultiCount from './components/multiCount';
 
-ReactDOM.render(
+const ChangeBackground = () =>{
+    const stylesObj = {background: "black"};
+    return(
+            <div style={stylesObj} className="container">
                 <div>
                     <MultiCount />
                     <br />
                     <MultiCount />
                 </div>
+            </div>)
+};
+ReactDOM.render(
+                <ChangeBackground />
                 , document.getElementById('root'));
 
 
