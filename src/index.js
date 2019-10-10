@@ -1,24 +1,32 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './index.css';
 import MultiCount from './components/multiCount';
+import NavBar from './components/NavBar';
+import './index.css';
+import './NavBar.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
-const ChangeBackground = () =>{
-    const stylesObj = {background: "black"};
-    return(
-            <div style={stylesObj} className="container">
-                <div>
+// const ChangeBackground = () =>{
+//     const stylesObj = {background: "black"};
+//     return(
+//             <div style={stylesObj} className="container">
+//                 <div>
+//                     <MultiCount />
+//                     <br />
+//                     <MultiCount />
+//                 </div>
+//             </div>)
+// };
+
+ReactDOM.render(
+                <React.Fragment>
+                    <NavBar />
                     <MultiCount />
                     <br />
                     <MultiCount />
-                </div>
-            </div>)
-};
-ReactDOM.render(
-                <ChangeBackground />
+                </React.Fragment>
                 , document.getElementById('root'));
 
 

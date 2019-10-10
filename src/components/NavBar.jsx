@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-
-class navBar extends Component{
+class NavBar extends Component{
 
     render(){
-        <React.Fragment>
-            test
+        return(
+            <React.Fragment>
+            <div>
+                <p id='neon-logo'>PhiNet</p>
+            </div>
         </React.Fragment>
+        )
     }
 
 };
 
-export default navBar;
+export default NavBar;
