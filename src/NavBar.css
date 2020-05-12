@@ -9,9 +9,9 @@
 }
 @-webkit-keyframes neon{
     from {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
-         0 0 25px #b3b3ff, 0 0 35px #b3b3ff, 0 0 45px #b3b3ff,
-          0 0 55px #b3b3ff, 0 0 60px #b3b3ff;
+        text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #fff,
+         0 0 12px #b3b3ff, 0 0 17px #b3b3ff, 0 0 23px #b3b3ff,
+          0 0 27px #b3b3ff, 0 0 30px #b3b3ff;
       }
       to {
         text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 8px #fff,
