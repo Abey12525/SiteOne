@@ -1,6 +1,6 @@
 #neon-logo{
     text-align: absolute;
-    font-size: 4em;
+    font-size: 3em;
     margin: 7px 8px 7px 8px;
     color: #228DFF;
     -webkit-animation: neon 1.5s ease-in-out infinite alternate;
@@ -15,8 +15,8 @@
       }
       to {
         text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 8px #fff,
-         0 0 14px #b3b3ff, 0 0 20px #b3b3ff, 0 0 28px #b3b3ff,
-          0 0 36px #b3b3ff, 0 0 45px #b3b3ff;
+         0 0 7px #b3b3ff, 0 0 10px #b3b3ff, 0 0 14px #b3b3ff,
+          0 0 18px #b3b3ff, 0 0 23px #b3b3ff;
       }
 }
 
@@ -28,8 +28,8 @@
       }
       to {
         text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 8px #fff,
-         0 0 14px #b3b3ff, 0 0 20px #b3b3ff, 0 0 28px #b3b3ff,
-          0 0 36px #b3b3ff, 0 0 45px #b3b3ff;
+         0 0 7px #b3b3ff, 0 0 10px #b3b3ff, 0 0 14px #b3b3ff,
+          0 0 18px #b3b3ff, 0 0 23px #b3b3ff;
       }
   }
 
@@ -41,8 +41,8 @@
       }
       to {
         text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 8px #fff,
-         0 0 14px #b3b3ff, 0 0 20px #b3b3ff, 0 0 28px #b3b3ff,
-          0 0 36px #b3b3ff, 0 0 45px #b3b3ff;
+         0 0 7px #b3b3ff, 0 0 10px #b3b3ff, 0 0 14px #b3b3ff,
+          0 0 18px #b3b3ff, 0 0 23px #b3b3ff;
       }
   }
 
