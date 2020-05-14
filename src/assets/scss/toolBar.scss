@@ -17,7 +17,7 @@ nav.responsive-toolbar {
         padding-inline-start: 0;
         height: 100%;
         align-items: center;
-        box-shadow: 2px 2px 2px #ccc;
+        // box-shadow: 2px 2px 2px rgb(16, 79, 131);
 
         figure { 
             margin-block-start: 0;
@@ -54,7 +54,6 @@ nav.responsive-toolbar {
 }
 
 @media screen and (max-width: 759px) {
-
     nav.responsive-toolbar{
         ul{
             height: 100%;

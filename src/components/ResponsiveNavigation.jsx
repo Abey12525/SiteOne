@@ -14,7 +14,7 @@ function ResponsiveNavigation({ background, hoverBackground, linkColor, navLinks
             style = {{ background: background}}>
 
                 <ul 
-                style = {{background: background}}
+                // style = {{background: background}}
                 className = {navOpen ? 'active' : ''}
                 >
 

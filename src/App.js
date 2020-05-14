@@ -46,7 +46,7 @@ function App() {
         <ResponsiveNavigation 
           navLinks={ navlinks }
           logo = { logo }
-          background = "#fff"
+          // background = "#fff"
           hoverBackground = "#ddd"
           linkColor = "#777" />
 
