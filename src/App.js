@@ -13,27 +13,27 @@ import './App.css';
 function App() {
     const navlinks = [
       {
-        text: 'Home',
+        text: 'H o m e',
         path: '/',
         icon: 'ion-ios-home'
       },
       {
-        text: 'Contact',
+        text: 'C o n t a c t',
         path: '/contact',
         icon: 'ion-ios-megaphone'
       },
       {
-        text: 'About',
+        text: 'A b o u t',
         path: '/about',
         icon: 'ion-ios-business'
       },
       {
-        text: 'Blog ',
+        text: 'B l o g',
         path: '/blog',
         icon: 'ion-ios-bonfire'
       },
       {
-        text: 'Portfolio',
+        text: 'P o r t f o l i o',
         path: '/portfolio',
         icon: 'ion-ios-briefcase'
       }
@@ -47,7 +47,7 @@ function App() {
           navLinks={ navlinks }
           logo = { logo }
           // background = "#fff"
-          hoverBackground = "#ddd"
+          hoverBackground = "#4D5165"
           linkColor = "#777" />
 
         
