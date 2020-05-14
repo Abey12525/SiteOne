@@ -1,3 +1,5 @@
+//Run using NODE_ENV=production node server.js
+
 const {createServer} = require('http');
 const express = require('express');
 const compression = require('compression');
