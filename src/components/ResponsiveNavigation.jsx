@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "@reach/router";
+import NavBar from "./NavBar.jsx";
 
 function ResponsiveNavigation({ background, hoverBackground, linkColor, navLinks, logo}){
 
@@ -17,7 +18,8 @@ function ResponsiveNavigation({ background, hoverBackground, linkColor, navLinks
                 // style = {{background: background}}
                 className = {navOpen ? 'active' : ''}
                 >
-
+                <NavBar onClick={ () => { setNavOpen(!navOpen)} }></NavBar>
+                {/* <NavBar className="image-logo" onClick={ () => { setNavOpen(!navOpen)} } alt="toolbar-logo"></NavBar> */}
                 <figure className="image-logo" onClick={ () => { setNavOpen(!navOpen) } }>
                     <img src={ logo } height="40px" width="40px" alt="toolbar-logo" />
                 </figure>
