@@ -55,6 +55,10 @@
     .toolbar__navigation-items{
         display: none;
     }
+
+    .toolbar__logo a{
+        color: #89a8e0;
+    }
 }
 
 @media (min-width: 769px){
