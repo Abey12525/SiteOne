@@ -5,9 +5,9 @@ canvas {
   }
 
 .prt{
-    height: 55%;
+    height: 68%;
     width: 100%;
     position: absolute; 
-    bottom: 15px; 
+    bottom: 120px; 
     z-index: -10;
 }
