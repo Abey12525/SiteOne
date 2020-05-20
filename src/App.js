@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
 // import logo from './logo.svg';
 // import { Router } from '@reach/router'
 
@@ -13,6 +14,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import BackDrop from './components/BackDrop/BackDrop';
+import './particles.css';
 
 // function App() {
 //     const navlinks = [
@@ -87,7 +89,6 @@ class App extends Component{
   backDropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   };
-
   render() {
     let backdrop;
 
@@ -95,11 +96,23 @@ class App extends Component{
       backdrop = <BackDrop click={this.backDropClickHandler}/>;
     }
     return ( 
-      <div style={{height: "100%"}}>
+      <div>
           <Toolbar drawerClickHandlerVar={this.drawerClickHandler}/>
           <SideDrawer show={this.state.sideDrawerOpen}/>
           {backdrop}
           <main style={{marginTop : '64px'}}>
+
+          <Particles
+              params={{
+                "particles": {
+                    "number": {
+                        "value": 15
+                    },
+                    "size": {
+                        "value": 1
+                    }
+                }
+            }} />
           </main>
       </div>
       

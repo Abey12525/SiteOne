@@ -1,0 +1,7 @@
+canvas {
+    display: block;
+    vertical-align: bottom;
+    height: 80vh;
+    width: 100vw;
+    background-attachment:fixed;
+  }
