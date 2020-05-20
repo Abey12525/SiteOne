@@ -1,7 +1,13 @@
 canvas {
-    display: block;
-    vertical-align: bottom;
-    height: 80vh;
-    width: 100vw;
-    background-attachment:fixed;
+    padding-top: 64px;
+    height: 100%;
+    width: 100%;
   }
+
+.prt{
+    padding-top:300px;
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    bottom: 0px; 
+}

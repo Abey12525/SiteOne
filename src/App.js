@@ -102,14 +102,14 @@ class App extends Component{
           {backdrop}
           <main style={{marginTop : '64px'}}>
 
-          <Particles
+          <Particles className='prt'
               params={{
                 "particles": {
                     "number": {
-                        "value": 15
+                        "value": 100
                     },
                     "size": {
-                        "value": 1
+                        "value": 0.5
                     }
                 }
             }} />
