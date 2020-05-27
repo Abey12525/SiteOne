@@ -39,7 +39,8 @@
 }
 
 .toolbar__navigation-items li{
-    padding: 1.3rem 1.3rem;
+    padding: 0 1.3rem;
+
 }
 
 .toolbar__navigation-items li:hover{
@@ -53,6 +54,7 @@
 .toolbar__navigation-items a{
     color: white;
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
 /* .grow:hover
