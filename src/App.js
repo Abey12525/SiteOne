@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 // import logo from './logo.svg';
-// import { Router } from '@reach/router'
+import { Router } from '@reach/router'
 
 // import About from './Pages/About.jsx';
 // import Home from './Pages/Home.jsx';
@@ -102,9 +102,9 @@ class App extends Component{
           {backdrop}
           <main style={{marginTop : '64px'}}>
 
-          <Particles className='prt'
+          {/* <Particles className='prt'
               params={{
-                "particles": {
+                "particles": {  
                     "number": {
                         "value": 65
                     },
@@ -112,7 +112,7 @@ class App extends Component{
                         "value": 0.01
                     }
                 }
-            }} />
+            }} /> */}
           </main>
       </div>
       
